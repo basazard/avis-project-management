@@ -1,5 +1,4 @@
-@extends('layout.app', ['title' => 'Dashboard Page'])
-
-@section('content')
+<x-app-layout title="Dashboard Page">
+    
     <x-navbar></x-navbar>
-@endsection
+</x-app-layout>

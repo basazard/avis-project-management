@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
     <title>{{ $title }} | Astra Visteon Indonesia</title>
+    {{ $styles }}
 </head>
 <body>
-    @yield('content');
+    {{ $slot }}
 </body>
 </html>
