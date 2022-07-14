@@ -9,6 +9,7 @@ use App\Http\Controllers\LibraryController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\RIOController;
 use App\Http\Controllers\TaskController;
+use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
